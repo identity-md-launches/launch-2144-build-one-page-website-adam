@@ -1,0 +1,106 @@
+{
+  "initial": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "title": {
+      "x": 40,
+      "y": 112,
+      "width": 310,
+      "height": 121.5,
+      "bottom": 233.5
+    },
+    "portrait": {
+      "x": 16.98652458190918,
+      "y": 290.9302673339844,
+      "width": 356.0269775390625,
+      "height": 250.56130981445312,
+      "bottom": 541.4915771484375
+    },
+    "primaryAction": {
+      "x": 40,
+      "y": 542.921875,
+      "width": 310,
+      "height": 56,
+      "bottom": 598.921875
+    },
+    "fonts": [
+      {
+        "family": "Fraunces",
+        "status": "loaded",
+        "weight": "700"
+      },
+      {
+        "family": "DM Sans",
+        "status": "loaded",
+        "weight": "400 700"
+      }
+    ]
+  },
+  "colorTokens": {
+    "--color-page": "#f6f4e9",
+    "--color-text": "#273b2b",
+    "--color-text-secondary": "#455340",
+    "--color-hero": "#f28b56",
+    "--color-primary": "#273b2b",
+    "--color-primary-hover": "#455340",
+    "--color-on-primary": "#f6f4e9",
+    "--color-keepsake": "#e6e9d6"
+  },
+  "contrastPairs": [
+    {
+      "name": "Body / page",
+      "foreground": "#273b2b",
+      "background": "#f6f4e9",
+      "ratio": 10.9
+    },
+    {
+      "name": "Secondary / page",
+      "foreground": "#455340",
+      "background": "#f6f4e9",
+      "ratio": 7.42
+    },
+    {
+      "name": "Hero text and stamp / orange",
+      "foreground": "#273b2b",
+      "background": "#f28b56",
+      "ratio": 4.93
+    },
+    {
+      "name": "Primary button label / idle",
+      "foreground": "#f6f4e9",
+      "background": "#273b2b",
+      "ratio": 10.9
+    },
+    {
+      "name": "Primary button label / hover and busy",
+      "foreground": "#f6f4e9",
+      "background": "#455340",
+      "ratio": 7.42
+    },
+    {
+      "name": "Postcard heading / sage",
+      "foreground": "#273b2b",
+      "background": "#e6e9d6",
+      "ratio": 9.73
+    },
+    {
+      "name": "Postcard prose / sage",
+      "foreground": "#455340",
+      "background": "#e6e9d6",
+      "ratio": 6.63
+    }
+  ],
+  "hover": {
+    "color": "rgb(246, 244, 233)",
+    "background": "rgb(69, 83, 64)"
+  },
+  "forcedColorsFocus": {
+    "focused": true,
+    "focusVisible": true,
+    "outlineStyle": "solid",
+    "outlineColor": "rgba(5, 0, 73, 0.8)",
+    "outlineWidth": "2px"
+  }
+}

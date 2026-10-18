@@ -1,0 +1,50 @@
+{
+  "engines": [
+    "chromium"
+  ],
+  "assertions": [
+    "chromium: no horizontal overflow at 320px",
+    "chromium: no horizontal overflow at 390px",
+    "chromium: Adam and primary action fit first 390px screen",
+    "chromium: no horizontal overflow at 624px",
+    "chromium: no horizontal overflow at 720px",
+    "chromium: no horizontal overflow at 816px",
+    "chromium: no horizontal overflow at 1088px",
+    "chromium: no horizontal overflow at 1440px",
+    "chromium: initial carrot count is zero",
+    "chromium: both local typefaces are loaded",
+    "chromium: skip link is the first keyboard stop",
+    "chromium: skip link moves focus to main content",
+    "chromium: primary action follows main content in tab order",
+    "chromium: primary button shows keyboard focus",
+    "chromium: feeding has a pending state",
+    "chromium: rapid activation gives only one carrot",
+    "chromium: success is announced without moving focus",
+    "chromium: repeat feeding and pluralization work",
+    "chromium: feedback 3 keeps the hero stable at 320px",
+    "chromium: feedback 4 keeps the hero stable at 320px",
+    "chromium: feedback 5 keeps the hero stable at 320px",
+    "chromium: feedback 6 keeps the hero stable at 320px",
+    "chromium: feedback 7 keeps the hero stable at 320px",
+    "chromium: section navigation works at gateway subpath",
+    "chromium: question 1 expands by keyboard",
+    "chromium: question 1 closes by keyboard",
+    "chromium: question 2 expands by keyboard",
+    "chromium: question 2 closes by keyboard",
+    "chromium: question 3 expands by keyboard",
+    "chromium: question 3 closes by keyboard",
+    "chromium: postcard download has intended name",
+    "chromium: downloaded postcard is a real PNG",
+    "chromium: return action focuses primary button",
+    "chromium: visit count resets on reload as described",
+    "chromium: axe WCAG A/AA scan has zero violations",
+    "chromium: reduced motion suppresses goat and carrot animations",
+    "chromium: 200% text enlargement has no horizontal overflow",
+    "chromium: all runtime requests stay local",
+    "chromium: no script, console, or resource failures"
+  ],
+  "limitations": [
+    "webkit could not launch: browserType.launch:  ╔══════════════════════════════════════════════════════╗ ║ Host system is missing dependencies to run browsers. ║ ║ Missing libraries:                                   ║ ║     libgstreamer-1.0.so.0                            ║ ║     libgtk-4.so.1                                    ║ ║     libpangocairo-1.0.so.0                           ║ ║     libgdk_pixbuf-2.0.so.0                           ║"
+  ],
+  "errors": []
+}
